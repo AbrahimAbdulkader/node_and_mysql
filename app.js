@@ -19,14 +19,28 @@ var connection = mysql.createConnection({ //Created the connection to the mysql 
 // connection.end();
 
 
-//INSERTING DATA TAKE 2
-var person = {email: faker.internet.email()};
-connection.query('INSERT INTO users SET ? ', person, function(error, result) {
+// //INSERTING DATA TAKE 2
+// var person = {email: faker.internet.email()};
+// connection.query('INSERT INTO users SET ? ', person, function(error, result) {
+// 	if(error) throw error;
+// 	console.log(result);
+// });
+
+
+// connection.end();
+
+
+//INSERTING DATA TAKE 3
+// 2021-08-22T06:28:24.168Z
+var person = {
+		email: faker.internet.email(),
+		created_at: faker.date.past()
+};
+
+connection.query('INSERT INTO users SET ?', person, function(error, result) {
 	if(error) throw error;
 	console.log(result);
 });
-
-
 connection.end();
 
 
