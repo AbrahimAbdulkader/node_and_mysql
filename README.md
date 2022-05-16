@@ -27,3 +27,8 @@
 9th Commit - Inserted another user using different syntax and used the faker package to insert a fake email.
 Also when it comes to date formatting in NodeJS it differs from MySQL syntax so luckly, NodeJS
 is able to translate the code to where MySQL would be able to understand it and store it in MySQL formatted syntax
+
+
+
+10th Commit - Inserted 500 users using an array and a loop that are randomly generated using the Faker package 
+and storing the data in the users table.
