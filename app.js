@@ -18,9 +18,9 @@ connection.query(q, function(error, results, fields) {
 
 connection.end();
 
-// Line 11: Created variable called 'q' with a query of CURDATE()
+// Line 11: Created variable called 'q' with 2 queries of CURDATE and a NOW 
 // Line 12: connection.query(run the query) followed by an if statement with multiple conditions,
-// if we encounter an error, return that error, else print the results 
+// if we encounter an error, return that error, else print the results
 
 
 // //We can also define a new function 
