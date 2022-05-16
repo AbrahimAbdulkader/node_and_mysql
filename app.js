@@ -9,14 +9,37 @@ var connection = mysql.createConnection({ //Created the connection to the mysql 
 });
 
 
-
-var q = 'SELECT COUNT(*) AS total FROM users';  //SELECT users
+//INSERTING DATA 
+var q = 'INSERT INTO users (email) VALUES ("rustynode _the_dog@gmail.com")';
 connection.query(q, function(error, results, fields) { //Connect the query
 	if(error) throw error; //If error, throw error
 	console.log(results); //else print the results
  });
 
-connection.end();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var q = 'SELECT COUNT(*) AS total FROM users';  //SELECT number of users using COUNT(*)
+// connection.query(q, function(error, results, fields) { //Connect the query
+// 	if(error) throw error; //If error, throw error
+// 	console.log(results); //else print the results
+//  });
+
+// connection.end();
 
 
 
