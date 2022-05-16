@@ -32,3 +32,7 @@ is able to translate the code to where MySQL would be able to understand it and 
 
 10th Commit - Inserted 500 users using an array and a loop that are randomly generated using the Faker package 
 and storing the data in the users table.
+
+
+
+11th Commit - Worked on a bunch of MySQL exercises using the users table
