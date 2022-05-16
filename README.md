@@ -22,3 +22,6 @@
 
 
 8th Commit - Testing insertion of 1 through NodeJS using MySQl
+
+
+9th Commit - Inserted another user using different syntax and used the faker package to insert a fake email
